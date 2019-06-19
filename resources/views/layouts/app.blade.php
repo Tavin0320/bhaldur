@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/boardgames.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -34,7 +35,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li>
-                            <a class="btn btn-primary" href="{{ url('/boardgames') }}">
+                            <a class="btn" href="{{ url('/boardgames') }}">
                                 Boardgames
                             </a>
                         </li>
@@ -75,7 +76,6 @@
                 </div>
             </div>
         </nav>
-
         <main class="py-4">
             @yield('content')
         </main>

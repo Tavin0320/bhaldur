@@ -6,7 +6,10 @@
         <div class="col-md-8">
             <div>
                 <header>Welcome to Cool Collections!</header>
-            </div> 
+                <p>This is a helpful tool which collects and organizes board games in the house.</p>
+            </div>
+            <div>
+            </div>
         </div>
     </div>
 </div>
