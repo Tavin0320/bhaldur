@@ -80,19 +80,12 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Tavin Bousfield
-                </div>
+            @foreach($boardgames as $boardgame)
+                
+                <div>Name: {{$boardgame->name}}</div>
+                <div style="margin-bottom: 20px;">Publisher: {{$boardgame->publisher->name}}</div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+            @endforeach  
             </div>
         </div>
     </body>
