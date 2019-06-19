@@ -6,12 +6,16 @@
         <div class="col-md-8">
             <table class="table"> 
                 <tr>
-                    <th>Name:</th>
+                    <th>Title:</th>
+                    <th>Minimum Players:</th>
+                    <th>Maximum Players:</th>
                     <th>Publisher:</th>
                 </tr>
             @foreach($boardgames as $boardgame)
                 <tr>
-                    <td>{{$boardgame->name}}</td>
+                    <td>{{$boardgame->title}}</td>
+                    <td>{{$boardgame->min_players}}</td>
+                    <td>{{$boardgame->max_players}}</td>
                     <td>{{$boardgame->publisher->name}}</td>
                 </tr>
             @endforeach 

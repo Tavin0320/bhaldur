@@ -28,7 +28,11 @@ class BoardgameController extends Controller
    }
 
     public function index() {
-        $boardgames = Boardgame::get();
+        // $boardgames = Boardgame::join('publishers', 'publishers.id', '=', 'boardgames.publisher_id')
+        //     ->orderBy('publishers.name')
+        //     ->get();
+
+        $boardgames = Boardgame::orderBy('title')->get();
 
         $data['boardgames'] = $boardgames;
 

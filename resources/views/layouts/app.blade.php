@@ -33,12 +33,11 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                    <button>
-                        <a href="{{ url('/boardgames') }}">
-                            Boardgames
-                        </a>
-                    </button>
-
+                        <li>
+                            <a class="btn btn-primary" href="{{ url('/boardgames') }}">
+                                Boardgames
+                            </a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
