@@ -4,6 +4,10 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+            <div>
+                <header>Our Boardgame Collection</header>
+                <p>This is an in-development tool to collect and organize boardgames!</p>
+            </div>
             <table class="table"> 
                 <tr>
                     <th>Title:</th>

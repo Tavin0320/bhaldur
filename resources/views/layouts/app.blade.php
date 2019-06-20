@@ -40,13 +40,13 @@
                             </a>
                         </li>
                         <li>
-                            <a class="btn" href="https://www.boardgamebliss.com/">
-                                Buy Moar Boardgames!
+                            <a class="btn" href="{{ url('/contact') }}">
+                                Contact Me!
                             </a>
                         </li>
                         <li>
-                            <a class="btn" href="{{ url('/contact') }}">
-                                Contact Me!
+                            <a class="btn" href="https://www.boardgamebliss.com/">
+                                Buy Moar Boardgames!
                             </a>
                         </li>
                     </ul>
