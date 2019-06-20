@@ -36,7 +36,17 @@
                     <ul class="navbar-nav mr-auto">
                         <li>
                             <a class="btn" href="{{ url('/boardgames') }}">
-                                Boardgames
+                                Boardgame Collection
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn" href="https://www.boardgamebliss.com/">
+                                Buy Moar Boardgames!
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn" href="{{ url('/contact') }}">
+                                Contact Me!
                             </a>
                         </li>
                     </ul>

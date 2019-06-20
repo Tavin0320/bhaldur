@@ -21,3 +21,9 @@ Route::get('/boardgames', 'BoardgameController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
