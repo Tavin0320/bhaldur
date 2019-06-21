@@ -14,6 +14,8 @@ class BoardgamesTableSeeder extends Seeder
 
         Boardgame::create([
             'title' => 'Arcadia Quest',
+            'slug' => 'arcadia-quest',
+            'box_cover' => 'cover-arcadia.jpg',
             'min_players' => 2,
             'max_players' => 4,
             'min_age' => 10,
@@ -22,6 +24,7 @@ class BoardgamesTableSeeder extends Seeder
 
         Boardgame::create([
             'title' => 'Bloodborne',
+            'slug' => 'bloodborne',
             'min_players' => 1,
             'max_players' => 4,
             'min_age' => 18,
@@ -30,6 +33,7 @@ class BoardgamesTableSeeder extends Seeder
 
         Boardgame::create([
             'title' => 'Nemesis',
+            'slug' => 'nemesis',
             'min_players' => 1,
             'max_players' => 5,
             'min_age' => 13,
@@ -38,6 +42,7 @@ class BoardgamesTableSeeder extends Seeder
 
         Boardgame::create([
             'title' => 'Kingdom Death: Monster',
+            'slug' => 'kingdom-death-monster',
             'min_players' => 1,
             'max_players' => 6,
             'min_age' => 18,

@@ -89,6 +89,9 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <footer class="fixed-bottom">
+            <address>&copy; Cool Collections, 2019</address>
+        </footer>
     </div>
 </body>
 </html>

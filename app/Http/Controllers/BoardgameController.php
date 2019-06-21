@@ -39,5 +39,14 @@ class BoardgameController extends Controller
         return view('boardgames', $data); 
     }
 
+    public function single($slug) {
+
+        $boardgame = Boardgame::where('slug', $slug)->first();
+
+        $data['boardgame'] = $boardgame;
+
+        return view('boardgames-single', $data);
+    }
+
 
 }

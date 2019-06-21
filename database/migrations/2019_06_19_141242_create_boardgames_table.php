@@ -16,6 +16,8 @@ class CreateBoardgamesTable extends Migration
         Schema::create('boardgames', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title', 100);
+            $table->string('slug', 100)->unique();
+            $table->string('box_cover', 100)->unique()->nullable();
             $table->integer('min_players')->unsigned();
             $table->integer('max_players')->unsigned();
             $table->integer('min_age')->unsigned();

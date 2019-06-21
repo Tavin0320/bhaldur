@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::get('/boardgames', 'BoardgameController@index');
 
+Route::get('/boardgames/{slug}', 'BoardgameController@single');
 
 Auth::routes();
 
