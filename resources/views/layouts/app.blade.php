@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <a class="btn" href="https://www.boardgamebliss.com/">
-                                Buy Moar Boardgames!
+                                Buy More Boardgames!
                             </a>
                         </li>
                     </ul>

@@ -2,6 +2,13 @@ a {
     color:#6ac1ef;
 }
 
+address {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .btn {
     font-weight: bold;
 }
@@ -21,15 +28,23 @@ p {
     border-radius: 20px;
 }
 
+.image-boardgame {
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .table th {
     background-color: aliceblue;
 }
 
 .table  {
     border: 2px solid black;
+    margin-top: 50px;
 }
 
 footer {
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(224, 224, 224);
     color: white;
 }

@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<!-- Singular view for boardgames, more details here not shown in the boardgame list view -->
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -10,7 +11,7 @@
             </div>
 
             @if(!is_null($boardgame->box_cover))
-                <img width="200" height="auto" src="/images/boardgames/covers/{{$boardgame->box_cover}}" alt="{{$boardgame->title}}">
+                <img class="image-boardgame" width="200" height="auto" src="/images/boardgames/covers/{{$boardgame->box_cover}}" alt="{{$boardgame->title}}">
             @endif
             <table class="table"> 
                 <tr>

@@ -10,6 +10,12 @@ class BoardgamesTableSeeder extends Seeder
      *
      * @return void
      */
+
+     /**
+      * This seeder manually inserts boardgame data into the table everytime it is seeded.
+      * Used for testing purposes only. The final product will have registered and verified 
+      * user submissions, hopefully.
+      */
     public function run() {
 
         Boardgame::create([

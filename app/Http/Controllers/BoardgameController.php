@@ -32,6 +32,7 @@ class BoardgameController extends Controller
         //     ->orderBy('publishers.name')
         //     ->get();
 
+        //Returns the list of boardgames in alphabetical order
         $boardgames = Boardgame::orderBy('title')->get();
 
         $data['boardgames'] = $boardgames;
@@ -41,6 +42,8 @@ class BoardgameController extends Controller
 
     public function single($slug) {
 
+        //Returns the slug of a boardgame in the url when viewed in a singular format,
+        //eg. boardgames/arcadia-quest
         $boardgame = Boardgame::where('slug', $slug)->first();
 
         $data['boardgame'] = $boardgame;
