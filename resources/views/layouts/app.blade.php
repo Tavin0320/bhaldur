@@ -40,13 +40,18 @@
                             </a>
                         </li>
                         <li>
-                            <a class="btn" href="{{ url('/contact') }}">
-                                Contact Me!
+                            <a class="btn" href="https://www.boardgamebliss.com/">
+                                Buy More Boardgames!
                             </a>
                         </li>
                         <li>
-                            <a class="btn" href="https://www.boardgamebliss.com/">
-                                Buy More Boardgames!
+                            <a class="btn" href="{{ url('/about') }}">
+                                About Me
+                            </a>
+                        </li>
+                        <li>
+                            <a class="btn" href="{{ url('/contact') }}">
+                                Contact Me
                             </a>
                         </li>
                     </ul>
@@ -89,7 +94,7 @@
         <main class="py-4">
             @yield('content')
         </main>
-        <footer class="fixed-bottom">
+        <footer>
             <address>&copy; Cool Collections, 2019</address>
         </footer>
     </div>

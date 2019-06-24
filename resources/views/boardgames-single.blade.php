@@ -5,9 +5,9 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div>
+            <div class="card" style="width: auto;">
                 <header>Our Boardgame Collection</header>
-                <p>This is an in-development tool to collect and organize boardgames!</p>
+                <h1>This is an in-development tool to collect and organize boardgames!</h1>
             </div>
 
             @if(!is_null($boardgame->box_cover))
@@ -26,7 +26,7 @@
                     <td>{{$boardgame->max_players}}</td>
                     <td>{{$boardgame->publisher->name}}</td>
                 </tr>
-            </table> 
+            </table>
         </div>
     </div>
 </div>

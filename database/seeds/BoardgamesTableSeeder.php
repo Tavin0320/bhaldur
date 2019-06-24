@@ -31,6 +31,7 @@ class BoardgamesTableSeeder extends Seeder
         Boardgame::create([
             'title' => 'Bloodborne',
             'slug' => 'bloodborne',
+            'box_cover' => 'cover-bloodborne.jpg',
             'min_players' => 1,
             'max_players' => 4,
             'min_age' => 18,
@@ -49,6 +50,7 @@ class BoardgamesTableSeeder extends Seeder
         Boardgame::create([
             'title' => 'Kingdom Death: Monster',
             'slug' => 'kingdom-death-monster',
+            'box_cover' => 'cover-kingdom-death-monster.jpg',
             'min_players' => 1,
             'max_players' => 6,
             'min_age' => 18,
