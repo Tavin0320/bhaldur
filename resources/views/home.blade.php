@@ -11,7 +11,7 @@
             </div>
             <div>
                 <a href="{{ url('/boardgames') }}">
-                    <img class="image-home" width="730" height="auto" src="https://nouzie.com/wp-content/uploads/85975/board-games-and-chess-club-tonight-at-the-library-from-630-8pm.-free.jpg" alt="chess thing"/>
+                    <img class="image-home img-fluid" width="730" height="auto" src="https://nouzie.com/wp-content/uploads/85975/board-games-and-chess-club-tonight-at-the-library-from-630-8pm.-free.jpg" alt="chess thing"/>
                 </a>
             </div>
             <div class="card" style="width: auto; margin-top: 20px; margin-bottom: 0; padding: 20px">
