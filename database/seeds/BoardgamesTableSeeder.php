@@ -43,6 +43,7 @@ class BoardgamesTableSeeder extends Seeder
         Boardgame::create([
             'title' => 'Nemesis',
             'slug' => 'nemesis',
+            'box_cover' => 'cover-nemesis.jpg',
             'min_players' => 1,
             'max_players' => 5,
             'duration' => '90-180',

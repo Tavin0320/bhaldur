@@ -9,7 +9,6 @@
                 <header>Our Boardgame Collection</header>
                 <p>This is an in-development tool to collect and organize boardgames!</p>
             </div>
-
             @if(!is_null($boardgame->box_cover))
                 <img class="image-boardgame" width="200" height="auto" src="/images/boardgames/covers/{{$boardgame->box_cover}}" alt="{{$boardgame->title}}">
             @endif
