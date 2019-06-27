@@ -24,16 +24,18 @@ class BoardgamesTableSeeder extends Seeder
             'box_cover' => 'cover-arcadia.jpg',
             'min_players' => 2,
             'max_players' => 4,
+            'duration' => '60',
             'min_age' => 10,
             'publisher_id' => 1,
         ]);
 
         Boardgame::create([
-            'title' => 'Bloodborne',
-            'slug' => 'bloodborne',
+            'title' => 'Bloodborne: The Board Game',
+            'slug' => 'bloodborne-the-board-game',
             'box_cover' => 'cover-bloodborne.jpg',
             'min_players' => 1,
             'max_players' => 4,
+            'duration' => '45-75',
             'min_age' => 18,
             'publisher_id' => 1,
         ]);
@@ -43,6 +45,7 @@ class BoardgamesTableSeeder extends Seeder
             'slug' => 'nemesis',
             'min_players' => 1,
             'max_players' => 5,
+            'duration' => '90-180',
             'min_age' => 13,
             'publisher_id' => 2,
         ]);
@@ -53,6 +56,7 @@ class BoardgamesTableSeeder extends Seeder
             'box_cover' => 'cover-kingdom-death-monster.jpg',
             'min_players' => 1,
             'max_players' => 6,
+            'duration' => '60-180',
             'min_age' => 18,
             'publisher_id' => 3,
         ]);
