@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'cool collections'),
+    'name' => env('APP_NAME', 'the board game vault'),
 
     /*
     |--------------------------------------------------------------------------

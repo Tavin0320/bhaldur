@@ -7,8 +7,8 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card" style="width: auto;">
-                <header>Our Boardgame Collection</header>
-                <p>This is an in-development tool to collect and organize boardgames!</p>
+                <header>The Vault</header>
+                <p>Browse through our fine selection of board games! Which game is your favourite?</p>
             </div>
         </div>
         <div class="col-md-10">
@@ -19,7 +19,7 @@
                     <th>Duration:</th>
                     <th>Recommended Age:</th>
                     <th>Publisher:</th>
-                    <th>Release Date:</th>
+                    <th>Release Year:</th>
                 </tr>
             @foreach($boardgames as $boardgame)
                 <tr class="table-hover">

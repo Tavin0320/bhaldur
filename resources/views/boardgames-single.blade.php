@@ -6,8 +6,8 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card" style="width: auto;">
-                <header>Our Boardgame Collection</header>
-                <p>This is an in-development tool to collect and organize boardgames!</p>
+                <header>{{$boardgame->title}}</header>
+                <p>This is an in-development tool to collect and organize board games!</p>
             </div>
             @if(!is_null($boardgame->box_cover))
                 <img class="image-boardgame" width="200" height="auto" src="/images/boardgames/covers/{{$boardgame->box_cover}}" alt="{{$boardgame->title}}">
@@ -21,7 +21,7 @@
                     <th>Duration:</th>
                     <th>Recommended Age:</th>
                     <th>Publisher:</th>
-                    <th>Release Date:</th>
+                    <th>Release Year:</th>
                 </tr>
                 <tr>
                     <td>{{$boardgame->title}}</td>

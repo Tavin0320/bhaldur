@@ -6,13 +6,13 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card" style="width: auto;">
-                <h1>Add A Boardgame!</h1>
+                <header>Add A Board Game!</header>
                 <form method="POST" action="/boardgames/store">
                 @csrf
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="title">Name of Boardgame</label>
+                                <label for="title">Name of Board Game</label>
                                 <input type="text" class="form-control" name="title" id="title">
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="release-year">Release Date</label>
+                                <label for="release-year">Release Year</label>
                                 <input type="text" class="form-control" name="release-year" id="release-year" placeholder="Please enter a year">
                             </div>
                         </div>
