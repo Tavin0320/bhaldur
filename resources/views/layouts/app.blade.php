@@ -54,11 +54,6 @@
                                 About Me
                             </a>
                         </li>
-                        <li>
-                            <a class="btn" href="{{ url('/contact') }}">
-                                Contact Me
-                            </a>
-                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
