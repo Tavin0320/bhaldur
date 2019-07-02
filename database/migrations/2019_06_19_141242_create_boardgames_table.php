@@ -20,7 +20,8 @@ class CreateBoardgamesTable extends Migration
             $table->string('box_cover', 100)->unique()->nullable();
             $table->integer('min_players')->unsigned();
             $table->integer('max_players')->unsigned();
-            $table->string('duration', 100);
+            $table->integer('min_duration')->default(0);
+            $table->integer('max_duration')->default(0);
             $table->integer('min_age')->unsigned();
             $table->integer('max_age')->unsigned()->nullable();
             $table->integer('publisher_id')->unsigned();

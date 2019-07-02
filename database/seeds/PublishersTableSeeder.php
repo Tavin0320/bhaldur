@@ -14,15 +14,23 @@ class PublishersTableSeeder extends Seeder
     {
         //
         Publisher::create([
-            'name' => 'CMON'
+            'name' => 'CMON',
+            'website' => 'https://www.cmon.com',
         ]);
 
         Publisher::create([
-            'name' => 'Awaken Realms'
+            'name' => 'Awaken Realms',
+            'website' => 'http://awakenrealms.com/',
         ]);
 
         Publisher::create([
-            'name' => 'Kingdom Death'
+            'name' => 'Kingdom Death',
+            'website' => 'https://kingdomdeath.com/',
+        ]);
+
+        Publisher::create([
+            'name' => 'Serious Poulp',
+            'website' => 'https://www.seriouspoulp.com/',
         ]);
     }
 }

@@ -40,6 +40,11 @@
                             </a>
                         </li>
                         <li>
+                            <a class="btn" href="{{ url('/boardgames-add') }}">
+                                Add a Boardgame
+                            </a>
+                        </li>
+                        <li>
                             <a class="btn" href="https://www.boardgamebliss.com/">
                                 Buy More Boardgames!
                             </a>

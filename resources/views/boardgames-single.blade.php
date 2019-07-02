@@ -12,20 +12,28 @@
             @if(!is_null($boardgame->box_cover))
                 <img class="image-boardgame" width="200" height="auto" src="/images/boardgames/covers/{{$boardgame->box_cover}}" alt="{{$boardgame->title}}">
             @endif
+        </div>
+        <div class="col-md-10">
             <table class="table"> 
                 <tr>
                     <th>Title:</th>
                     <th>Minimum Players:</th>
                     <th>Maximum Players:</th>
                     <th>Duration (Min):</th>
+                    <th>Minimum Age:</th>
                     <th>Publisher:</th>
                 </tr>
                 <tr>
                     <td>{{$boardgame->title}}</td>
                     <td>{{$boardgame->min_players}}</td>
                     <td>{{$boardgame->max_players}}</td>
-                    <td>{{$boardgame->duration}}</td>
-                    <td>{{$boardgame->publisher->name}}</td>
+                    @if($boardgame->max_duration == 0)
+                        <td>{{$boardgame->min_duration}}</td>
+                    @else
+                        <td>{{$boardgame->min_duration}}-{{$boardgame->max_duration}}</td>
+                    @endif
+                    <td>{{$boardgame->min_age}}+</td>
+                    <td><a href="{{$boardgame->publisher->website}}">{{$boardgame->publisher->name}}</a></td>
                 </tr>
             </table>
         </div>

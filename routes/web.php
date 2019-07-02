@@ -19,6 +19,12 @@ Route::get('/', function () {
 //Returns the boardgame list view
 Route::get('/boardgames', 'BoardgameController@index');
 
+//Adds a new boardgame to the site
+Route::post('/boardgames/store', 'BoardgameController@store');
+
+//View hosting the form to add boardgames to the list
+Route::get('/boardgames/add', 'BoardgameController@addNew');
+
 //Returns the singular boardgame view with its assigned slug
 Route::get('/boardgames/{slug}', 'BoardgameController@single');
 
