@@ -8,7 +8,7 @@ class Boardgame extends Model
 {
     //Used to help with creating user submitted data for the table.
     protected $fillable = [
-        'title', 'slug', 'min_players', 'max_players', 'min_age', 'min_duration', 'max_duration', 'publisher_id'
+        'title', 'slug', 'min_players', 'max_players', 'min_age', 'min_duration', 'max_duration', 'publisher_id', 'release_year'
     ];
 
     //The Model for Boardgame, the following function links publisher to this Model,

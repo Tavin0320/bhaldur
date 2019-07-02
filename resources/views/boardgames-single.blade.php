@@ -17,23 +17,27 @@
             <table class="table"> 
                 <tr>
                     <th>Title:</th>
-                    <th>Minimum Players:</th>
-                    <th>Maximum Players:</th>
-                    <th>Duration (Min):</th>
-                    <th>Minimum Age:</th>
+                    <th>Players:</th>
+                    <th>Duration:</th>
+                    <th>Recommended Age:</th>
                     <th>Publisher:</th>
+                    <th>Release Date:</th>
                 </tr>
                 <tr>
                     <td>{{$boardgame->title}}</td>
-                    <td>{{$boardgame->min_players}}</td>
-                    <td>{{$boardgame->max_players}}</td>
-                    @if($boardgame->max_duration == 0)
-                        <td>{{$boardgame->min_duration}}</td>
+                    @if($boardgame->max_players == 1)
+                        <td>{{$boardgame->min_players}}</td>
                     @else
-                        <td>{{$boardgame->min_duration}}-{{$boardgame->max_duration}}</td>
+                        <td>{{$boardgame->min_players}}-{{$boardgame->max_players}}</td>
+                    @endif
+                    @if($boardgame->max_duration == 0)
+                        <td>{{$boardgame->min_duration}} Min</td>
+                    @else
+                        <td>{{$boardgame->min_duration}}-{{$boardgame->max_duration}} Min</td>
                     @endif
                     <td>{{$boardgame->min_age}}+</td>
                     <td><a href="{{$boardgame->publisher->website}}">{{$boardgame->publisher->name}}</a></td>
+                    <td>{{$boardgame->release_year}}</td>
                 </tr>
             </table>
         </div>

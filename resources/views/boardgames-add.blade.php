@@ -22,10 +22,9 @@
                             <div class="form-group">
                                 <label for="min-player">Minimum Players:</label>
                                 <select class="form-control" name="min-player" id="min-player">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
+                                @for($min = 1; $min <= 4; $min++)
+                                    <option>{{$min}}</option>
+                                @endfor
                                 </select>
                             </div>
                         </div>
@@ -33,18 +32,9 @@
                             <div class="form-group">
                                 <label for="max-player">Maximum Players:</label>
                                 <select class="form-control" name="max-player" id="max-player">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6</option>
-                                    <option>7</option>
-                                    <option>8</option>
-                                    <option>9</option>
-                                    <option>10</option>
-                                    <option>11</option>
-                                    <option>12</option>
+                                @for($max = 1; $max <= 12; $max++)
+                                    <option>{{$max}}</option>
+                                @endfor
                                 </select>
                             </div>
                         </div>
@@ -68,24 +58,9 @@
                             <div class="form-group">
                                 <label for="min-age">Minimum Age:</label>
                                 <select class="form-control" name="min-age" id="min-age">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6</option>
-                                    <option>7</option>
-                                    <option>8</option>
-                                    <option>9</option>
-                                    <option>10</option>
-                                    <option>11</option>
-                                    <option>12</option>
-                                    <option>13</option>
-                                    <option>14</option>
-                                    <option>15</option>
-                                    <option>16</option>
-                                    <option>17</option>
-                                    <option>18</option>
+                                @for($min = 1; $min <= 18; $min++)
+                                    <option>{{$min}}</option>
+                                @endfor
                                 </select>
                             </div>
                         </div>
@@ -97,6 +72,14 @@
                                     <option value="{{$publisher->id}}">{{$publisher->name}}</option>
                                     @endforeach
                                 </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="release-year">Release Date</label>
+                                <input type="text" class="form-control" name="release-year" id="release-year" placeholder="Please enter a year">
                             </div>
                         </div>
                     </div>

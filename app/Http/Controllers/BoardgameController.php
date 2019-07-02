@@ -59,7 +59,7 @@ class BoardgameController extends Controller
         $publishers = Publisher::orderBy('name')->get();
 
         $data['publishers'] = $publishers;
-         
+
         return view('boardgames-add', $data);
     }
 
@@ -69,9 +69,10 @@ class BoardgameController extends Controller
         $min = $request->input('min-player');
         $max = $request->input('max-player');
         $min_duration = $request->input('min-duration');
-        $max_duration = $request->input('max-duration');
+        $max_duration = ($request->input('max-duration') == '') ? 0 : $request->input('max-duration');
         $age = $request->input('min-age');
         $publisher = $request->input('publisher');
+        $release = $request->input('release-year');
 
         
         $boardgame = Boardgame::create([
@@ -84,6 +85,7 @@ class BoardgameController extends Controller
             'max_duration' => $max_duration,
             'min_age' => $age,
             'publisher_id' => $publisher,
+            'release_year' => $release,
             ]);
 
         return redirect('boardgames/'.$boardgame->slug);

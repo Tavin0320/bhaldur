@@ -23,8 +23,8 @@ class CreateBoardgamesTable extends Migration
             $table->integer('min_duration')->default(0);
             $table->integer('max_duration')->default(0);
             $table->integer('min_age')->unsigned();
-            $table->integer('max_age')->unsigned()->nullable();
             $table->integer('publisher_id')->unsigned();
+            $table->integer('release_year')->unsigned();
             
             $table->timestamps();
 
