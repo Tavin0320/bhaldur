@@ -82,6 +82,16 @@
                                 <input type="text" class="form-control" name="release-year" id="release-year" placeholder="Please enter a year">
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="rating">Rating</label>
+                                <select class="form-control" name="rating" id="rating">
+                                @for($rate = 1; $rate <= 10; $rate++)
+                                    <option>{{$rate}}</option>
+                                @endfor
+                                </select>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-2">

@@ -94,7 +94,7 @@
             @yield('content')
         </main>
         <footer>
-            <address>&copy; Cool Collections, 2019</address>
+            <address>&copy; The Board Game Vault, 2019</address>
         </footer>
     </div>
 </body>

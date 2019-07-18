@@ -28,6 +28,7 @@ class BoardgamesTableSeeder extends Seeder
             'min_age' => 10,
             'publisher_id' => 1,
             'release_year' => 2014,
+            'rating' => 7.8,
         ]);
 
         Boardgame::create([
@@ -41,6 +42,7 @@ class BoardgamesTableSeeder extends Seeder
             'min_age' => 18,
             'publisher_id' => 1,
             'release_year' => 2020,
+            'rating' => 5.4,
         ]);
 
         Boardgame::create([
@@ -54,6 +56,7 @@ class BoardgamesTableSeeder extends Seeder
             'min_age' => 13,
             'publisher_id' => 2,
             'release_year' => 2018,
+            'rating' => 8.5,
         ]);
 
         Boardgame::create([
@@ -67,6 +70,7 @@ class BoardgamesTableSeeder extends Seeder
             'min_age' => 18,
             'publisher_id' => 3,
             'release_year' => 2015,
+            'rating' => 8.8,
         ]);
 
         

@@ -22,6 +22,7 @@
                     <th>Recommended Age:</th>
                     <th>Publisher:</th>
                     <th>Release Year:</th>
+                    <th>Rating:</th>
                 </tr>
                 <tr>
                     <td>{{$boardgame->title}}</td>
@@ -38,6 +39,7 @@
                     <td>{{$boardgame->min_age}}+</td>
                     <td><a href="{{$boardgame->publisher->website}}">{{$boardgame->publisher->name}}</a></td>
                     <td>{{$boardgame->release_year}}</td>
+                    <td>{{$boardgame->rating}}/10</td>
                 </tr>
             </table>
         </div>
