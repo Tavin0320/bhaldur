@@ -16,7 +16,7 @@
             </div>
             <div class="card" style="width: auto; margin-top: 20px; margin-bottom: 0; padding: 20px">
                 <h1>How Do I Add a Board Game?</h2>
-                <p>Adding a board game is easy! First simply login and visit the Add a Board Game page. 
+                <p>Adding a board game is easy! First simply login and visit the <a href="http://bhaldur.tavin.ca.local/boardgames/add">Add a Board Game</a> page. 
                    From there you can submit a board game to be reviewed and approved by the site moderators, 
                    it's that simple!</p>
             </div>

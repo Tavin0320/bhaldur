@@ -29,6 +29,7 @@ class BoardgamesTableSeeder extends Seeder
             'publisher_id' => 1,
             'release_year' => 2014,
             'rating' => 7.8,
+            'description' => 'In Arcadia Quest, players lead guilds of intrepid heroes on an epic campaign to dethrone the vampire lord and reclaim the mighty Arcadia for their own.',
         ]);
 
         Boardgame::create([
@@ -43,6 +44,7 @@ class BoardgamesTableSeeder extends Seeder
             'publisher_id' => 1,
             'release_year' => 2020,
             'rating' => 5.4,
+            'description' => 'Revered for its healing techniques, the town of Yharnam is rapidly degrading as a plague that turns people into beasts spreads uncontrollably. As a Hunter, it falls to you to quell this growing threat.',
         ]);
 
         Boardgame::create([
@@ -57,6 +59,7 @@ class BoardgamesTableSeeder extends Seeder
             'publisher_id' => 2,
             'release_year' => 2018,
             'rating' => 8.5,
+            'description' => 'Nemesis is a 1-5 player survival sci-fi game where players are woken up from hibernation as a crew of a space ship.',
         ]);
 
         Boardgame::create([
@@ -71,6 +74,7 @@ class BoardgamesTableSeeder extends Seeder
             'publisher_id' => 3,
             'release_year' => 2015,
             'rating' => 8.8,
+            'description' => 'Kingdom Death: Monster is a fully cooperative tabletop hobby game experience. Set in a unique nightmarish world devoid of most natural resources, you control a settlement at the dawn of its existence.',
         ]);
 
         

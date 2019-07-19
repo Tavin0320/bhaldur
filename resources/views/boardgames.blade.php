@@ -11,6 +11,28 @@
                 <p>Browse through our fine selection of board games! Which game is your favourite?</p>
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: auto;">
+                <img class="image-boardgame" style="margin-top: 40px;" width="200" height="auto" src="/images/boardgames/covers/cover-arcadia.jpg" alt="Arcadia Quest">
+                <h1 style="text-align: center;"><a href="http://bhaldur.tavin.ca.local/boardgames/arcadia-quest">Arcadia Quest</a></h1>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: auto;">
+                <img class="image-boardgame" style="margin-top: 40px;" width="200" height="auto" src="/images/boardgames/covers/cover-bloodborne.jpg" alt="Bloodborne: The Board Game">
+                <h1 style="text-align: center;"><a href="http://bhaldur.tavin.ca.local/boardgames/bloodborne-the-board-game">Bloodborne: The Board Game</a></h1>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: auto;">
+                <img class="image-boardgame" style="margin-top: 40px;" width="200" height="auto" src="/images/boardgames/covers/cover-kingdom-death-monster.jpg" alt="Kingdom Death: Monster">
+                <h1 style="text-align: center;"><a href="http://bhaldur.tavin.ca.local/boardgames/kingdom-death-monster">Kingdom Death: Monster</a></h1>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
         <div class="col-md-10">
             <table class="table">
                 <tr>

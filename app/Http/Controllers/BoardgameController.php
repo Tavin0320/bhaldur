@@ -74,6 +74,7 @@ class BoardgameController extends Controller
         $publisher = $request->input('publisher');
         $release = $request->input('release-year');
         $rating = $request->input('rating');
+        $description = $request->input('description');
 
         
         $boardgame = Boardgame::create([
@@ -88,6 +89,7 @@ class BoardgameController extends Controller
             'publisher_id' => $publisher,
             'release_year' => $release,
             'rating' => $rating,
+            'description' => $description,
             ]);
 
         return redirect('boardgames/'.$boardgame->slug);

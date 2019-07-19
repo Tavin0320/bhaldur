@@ -7,13 +7,17 @@
         <div class="col-md-8">
             <div class="card" style="width: auto;">
                 <header>{{$boardgame->title}}</header>
-                <p>This is an in-development tool to collect and organize board games!</p>
+                <p>{{$boardgame->description}}</p>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
             @if(!is_null($boardgame->box_cover))
                 <img class="image-boardgame" width="200" height="auto" src="/images/boardgames/covers/{{$boardgame->box_cover}}" alt="{{$boardgame->title}}">
             @endif
         </div>
-        <div class="col-md-10">
+        <div class="col-md-8">
             <table class="table"> 
                 <tr>
                     <th>Title:</th>

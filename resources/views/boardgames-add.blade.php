@@ -94,6 +94,14 @@
                         </div>
                     </div>
                     <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label for="description">Description</label>
+                                <textarea rows="4" cols="50" class="form-control" name="description" id="description" placeholder="Provide a brief description of the board game"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-2">
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary">Submit</button>

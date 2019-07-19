@@ -26,6 +26,7 @@ class CreateBoardgamesTable extends Migration
             $table->integer('publisher_id')->unsigned();
             $table->integer('release_year')->unsigned();
             $table->float('rating')->unsigned();
+            $table->string('description', 255)->unique();
             
             $table->timestamps();
 
